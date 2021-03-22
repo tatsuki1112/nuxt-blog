@@ -23,7 +23,7 @@ export default {
     methods: {
         link() {
             const param = 1
-            console.log('aaa')
+            
             this.$router.push({path: `detail/${param}`})
         }
     }
